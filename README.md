@@ -1,2 +1,2 @@
 # Habit-Tracker
-My first full-stack project using MERN
+My very first full-stack project using MERN
