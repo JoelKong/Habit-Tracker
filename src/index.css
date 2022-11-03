@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans&display=swap");
+@import url("components/Homepage/Home.css");
+
+/* Global */
+
+:root {
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
+  --clr-primary: #d23669;
+}
+
+.dark-theme {
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #ffa7c4;
+}
+.light-theme {
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
+  --clr-primary: #d23669;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif, "Open Sans", sans-serif;
+  background-color: var(--clr-bcg);
+  color: var(--clr-font);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  transition: all 0.3s linear;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2em;
+}
