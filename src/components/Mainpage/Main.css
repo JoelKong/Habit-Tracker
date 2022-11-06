@@ -1,0 +1,182 @@
+/*Global Header*/
+
+.nav {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-center {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: auto 2fr auto;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: block;
+  list-style-type: none;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  text-align: center;
+  height: 50%;
+  display: grid;
+  align-items: center;
+}
+.nav-links li {
+  height: 100%;
+}
+
+.link-btn {
+  height: 100%;
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.1rem;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  width: 10rem;
+}
+
+.progress-bar {
+  margin-left: 2em;
+  border-radius: 20px;
+  border: 1px solid #333844;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  height: 1.4rem;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ccc,
+    #ccc 10px,
+    #eee 10px,
+    #eee 20px
+  );
+  width: 2px;
+  transition: 2s cubic-bezier(0.57, 0.12, 0.35, 1.2);
+}
+
+.progress-bar__percent {
+  z-index: 500;
+  display: block;
+  padding: 0 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.2rem;
+  position: relative;
+  color: rgba(98, 98, 98, 0.845);
+}
+
+.habit-header {
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.underline-habit {
+  display: block;
+  width: 10rem;
+  height: 0.25rem;
+  background: hsl(205, 78%, 60%);
+  margin: 0 auto;
+}
+
+.headerhabit {
+  margin-top: 4rem;
+}
+
+.text-area {
+  font-size: 1.2em;
+  padding-top: 1em;
+  padding-right: 1em;
+  border: 2px solid black;
+  border-radius: 0.5em;
+}
+
+/*Habit Table*/
+
+.table-section {
+  margin-top: 4em;
+}
+
+.table {
+  border-spacing: 0;
+  border-radius: 5px;
+  color: black;
+  min-width: 85vw;
+  background-color: white;
+  border: 1px solid #ffa7c4;
+  margin: 0 auto;
+}
+
+.table-head {
+  text-align: left;
+  background-color: hsla(205, 50%, 44%, 0.266);
+  font-size: 30px;
+}
+
+.table-body {
+  height: 6em;
+}
+
+.table-data {
+  width: 2.5em;
+  text-align: left;
+}
+
+.table-footer {
+  text-align: center;
+  height: 5em;
+}
+
+.add-habit {
+  font-size: 20px;
+  margin: 0 auto;
+  position: relative;
+  background: var(--clr-primary);
+  color: var(--clr-bcg);
+  width: 20rem;
+  height: 2.4rem;
+  border-radius: 5px;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.add-habit:hover {
+  background-color: #d23669;
+}
+
+th {
+  padding-left: 1em;
+}
+
+td {
+  padding-left: 2.2em;
+}
