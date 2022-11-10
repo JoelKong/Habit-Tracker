@@ -1,0 +1,371 @@
+/*Global Header*/
+
+.nav {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-center {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: auto 2fr auto;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: block;
+  list-style-type: none;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  text-align: center;
+  height: 50%;
+  display: grid;
+  align-items: center;
+}
+.nav-links li {
+  height: 100%;
+}
+
+.link-btn {
+  height: 100%;
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.1rem;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  width: 10rem;
+}
+
+.progress-bar {
+  margin-left: 2em;
+  border-radius: 20px;
+  border: 1px solid #333844;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  height: 1.4rem;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ccc,
+    #ccc 10px,
+    #eee 10px,
+    #eee 20px
+  );
+  width: 2px;
+  transition: 2s cubic-bezier(0.57, 0.12, 0.35, 1.2);
+}
+
+.progress-bar__percent {
+  z-index: 500;
+  display: block;
+  padding: 0 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.2rem;
+  position: relative;
+  color: rgba(98, 98, 98, 0.845);
+}
+
+.habit-header {
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.underline-habit {
+  display: block;
+  width: 10rem;
+  height: 0.25rem;
+  background: hsl(205, 78%, 60%);
+  margin: 0 auto;
+}
+
+.headerhabit {
+  margin-top: 4rem;
+}
+
+.input-habit {
+  width: 700px;
+  font-size: 1.2em;
+  border: 2px solid black;
+  border-radius: 0.5em;
+}
+
+/*Habit Table*/
+
+.table-section {
+  margin-top: 4em;
+  width: 100%;
+  min-height: 30vh;
+}
+
+.table100-head {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  top: 30%;
+}
+
+tr {
+  display: table-row;
+  vertical-align: middle;
+}
+
+th {
+  padding-left: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6472d8;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+}
+
+.h-column1 {
+  width: 60%;
+  border-top-left-radius: 10px;
+}
+.h-column2 {
+  width: 20%;
+}
+.h-column3 {
+  width: 20%;
+  border-top-right-radius: 10px;
+}
+
+table {
+  width: 90%;
+  text-indent: initial;
+  border-spacing: 0;
+  margin: 0 auto;
+  box-shadow: rgba(180, 179, 179, 0.35) 0px 5px 15px;
+
+  border-radius: 10px;
+}
+
+.table100-body {
+  width: 100%;
+}
+
+.scroll {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  font-size: 25px;
+  line-height: 1.4;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100vw;
+}
+
+.table-data1 {
+  width: 60%;
+}
+.table-data2 {
+  width: 20vw;
+}
+.table-data3 {
+  width: 20vw;
+}
+
+.table100.ver1 .table100-body tr:nth-child(even):not(:last-child) {
+  background-color: #333844;
+}
+
+.table-footer {
+  height: 3em;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.t-row {
+  background-color: #6472d8;
+}
+
+.editclass {
+  color: #ffc107;
+  cursor: pointer;
+  position: relative;
+  top: 6px;
+  font-size: 30px;
+  border: none;
+  background-color: inherit;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.deleteclass {
+  color: #f44336;
+  cursor: pointer;
+  position: relative;
+  font-size: 30px;
+  top: 6px;
+  border: none;
+  background-color: inherit;
+}
+
+/* .table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+  border-radius: 5px;
+  color: black;
+  min-width: 85vw;
+  background-color: white;
+  border: 1px solid #ffa7c4;
+  margin: 0 auto;
+}
+
+.table-head {
+  display: table-header-group;
+  text-align: left;
+  background-color: hsla(205, 50%, 44%, 0.266);
+  font-size: 30px;
+}
+
+.table-body {
+  width: 100%;
+  display: table;
+}
+
+.table-data {
+  width: 2.5em;
+  text-align: left;
+}
+
+.table-footer {
+  text-align: center;
+  height: 5em;
+} */
+
+.add-habit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 0 auto;
+  position: relative;
+  background: var(--clr-primary);
+  color: var(--clr-bcg);
+  width: 20rem;
+  height: 2.4rem;
+  border-radius: 5px;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.add-icon {
+  position: relative;
+  top: 2px;
+  right: 4px;
+}
+
+.add-habit:hover {
+  background-color: #d23669;
+}
+
+/* CheckBox */
+
+[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+  color: dodgerblue;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: none;
+  border: 0;
+  outline: 0;
+  flex-grow: 0;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+[type="checkbox"]::before {
+  content: "";
+  color: transparent;
+  display: block;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  border: 0;
+  background-color: transparent;
+  background-size: contain;
+  box-shadow: inset 0 0 0 1px #ccd3d8;
+}
+
+[type="checkbox"]:checked {
+  background-color: currentcolor;
+}
+
+[type="checkbox"]:checked::before {
+  box-shadow: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+}
