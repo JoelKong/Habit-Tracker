@@ -6,12 +6,14 @@ A easy-to-use habit tracker which promotes the following of healthy habits. (Ins
 ## Application Code
 ### Front-End
 Development: React.js  
-Deployment: Netlify
+Deployment: Netlify  
+The front end makes use of React to organise the web app into reusable components and also manage the states of certain elements or objects. Axios is also used to make API calls to the backend.
 
 ### Back-End
 Server: Express.js  
 Database: MongoDB  
-Runtime Environment: Node.js
+Runtime Environment: Node.js  
+The backend consists of Express in order to send or receive HTTP requests from the front end and MongoDB for the manipulation and storage of data.
 
 ## User Validations
 Users must first sign up for an account or log in from an existing account. There are some validations put in place to prevent the creation of identical accounts, missing fields or invalid users. When logging in, the backend would communicate with the front end to send data over and vice versa for signing up.
@@ -19,7 +21,7 @@ Users must first sign up for an account or log in from an existing account. Ther
 ![Validation](/assets/githubimages/validate.gif)
 
 ## Create, Read and Update Habits
-Upon logging in, users will be able to create a new habit based off whatever input they decide to give it. The date where the habit is started is tracked down and listed. Users would then be able to further take actions on these habits such as modifying the habit field or deleting it off the list
+Upon logging in, users will be able to create a new habit based off whatever input they decide to give it. The date where the habit is started is tracked down and listed. Users would then be able to further take actions on these habits such as modifying the habit field or deleting it off the list. Everytime the list is altered, data is constantly sent back and forth between the front and back end and eventually the list is called in the re-render using the useEffect react hook.
 
 ![CRUD](/assets/githubimages/crud.gif)
 
