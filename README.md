@@ -1,9 +1,9 @@
-# StreakX(still in development) 🔥🔥
+# StreakX 🔥🔥
 A easy-to-use habit tracker which promotes the following of healthy habits. (Inspired by the book Atomic Habits by James Clear)
 
 ![StreakX](/assets/githubimages/streakx.PNG)
 
-## Application code
+## Application Code
 ### Front-End
 Development: React.js  
 Deployment: Netlify
@@ -18,13 +18,15 @@ Users must first sign up for an account or log in from an existing account. Ther
 
 ![Validation](/assets/githubimages/validate.gif)
 
-## Create habit
+## Create, Read and Update Habits
+Upon logging in, users will be able to create a new habit based off whatever input they decide to give it. The date where the habit is started is tracked down and listed. Users would then be able to further take actions on these habits such as modifying the habit field or deleting it off the list
 
-## Read habit
+![CRUD](/assets/githubimages/crud.gif)
 
-## Update habit
+## Tracking Progression
+Another action that the user can take on his/her habits is to complete it. This is done via ticking the checkbox under the actions tab. Ticking off a habit would then trigger the progression bar to move depending on how many habits are completed on that day.
 
-## Delete habit
+![progress](/assets/githubimages/progress.gif)
 
-## Tracking progression
-
+## In Development (Finish Day, Profile)
+Will be making this web app time based, by giving users a time limit before the day ends to complete their habits which would promote the reinforcement of completing such habits from day to day. The data would also be recorded in their profile.
