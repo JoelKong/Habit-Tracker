@@ -1,2 +1,2 @@
-# Habit-Tracker
-My very first full-stack project using MERN
+# StreakX
+A easy-to-use habit tracker which promotes the following of healthy habits.
