@@ -11,7 +11,7 @@ const HabitModel = require("./models/Habits");
 
 //Connect to MongoDB atlas
 mongoose.connect(
-  "mongodb+srv://joelkong2001:rjge7nft@cluster0.7ohyjiv.mongodb.net/habittracker?retryWrites=true&w=majority"
+  //Write your mongodb atlas cluster here
 );
 
 //Middleware
