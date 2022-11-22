@@ -12,8 +12,8 @@ The front end makes use of React to organise the web app into reusable component
 ### Back-End
 Server: Express.js  
 Database: MongoDB  
-Deployment: Heroku  
 Runtime Environment: Node.js  
+Deployment: Heroku   
 The back end consists of Express to send or receive HTTP requests from the front end and MongoDB for the manipulation and storage of data.
 
 ## User Validations
