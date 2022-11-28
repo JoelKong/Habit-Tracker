@@ -24,7 +24,7 @@ Users must first sign up for an account or log in from an existing account. Ther
 ## Create, Read, Update and Delete Habits
 Upon logging in, users will be able to create a new habit based off whatever input they decide to give it. The date where the habit is started is tracked down and listed. Users would then be able to further take actions on these habits such as modifying the habit field or deleting it off the list. Everytime the list is altered, data is constantly sent back and forth between the front and back end and eventually the list is called in the re-render using the useEffect react hook.
 
-![CRUD](/assets/githubimages/crud.gif)
+![CRUD](/assets/githubimages/crudd.gif)
 
 ## Tracking Progression
 Another action that the user can take on his/her habits is to complete it. This is done via ticking the checkbox under the actions tab. Ticking off a habit would then trigger the progression bar to move depending on how many habits are completed on that day.
