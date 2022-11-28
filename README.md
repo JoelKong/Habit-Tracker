@@ -26,10 +26,7 @@ Upon logging in, users will be able to create a new habit based off whatever inp
 
 ![CRUD](/assets/githubimages/crudd.gif)
 
-## Tracking Progression
-Another action that the user can take on his/her habits is to complete it. This is done via ticking the checkbox under the actions tab. Ticking off a habit would then trigger the progression bar to move depending on how many habits are completed on that day.
+## Time Limit, Tracking Progression and Finish Day
+Another action that the user can take on his/her habits is to complete it. This is done via ticking the checkbox under the actions tab. Ticking off a habit would then trigger the progression bar to move depending on how many habits are completed on that day. Users are given a timeframe before the day ends to complete their daily habits anmd finish the day. They can also choose not to complete it where a warning prompt would appear upon finishing the day. The summary for the day would then be listed upon finishing the day.
 
-![progress](/assets/githubimages/progress.gif)
-
-## In Development (Finish Day, Profile)
-Will be making this web app time based, by giving users a time limit before the day ends to complete their habits which would promote the reinforcement of completing such habits from day to day. The data would also be recorded in their profile.
+![progress](/assets/githubimages/progresss.gif)
