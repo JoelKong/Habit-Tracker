@@ -1,7 +1,7 @@
 # StreakX 🔥🔥
 A easy to use habit tracker which promotes the following of healthy habits. (Inspired from the book: Atomic Habits by James Clear)
 
-![StreakX](/assets/githubimages/streakx.PNG)
+![StreakX](/assets/githubimages/streak.PNG)
 
 ## Application Code
 ### Front-End
