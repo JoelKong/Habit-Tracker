@@ -12,7 +12,7 @@ const HabitModel = require("./models/Habits");
 //Connect to MongoDB atlas
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb+srv://joelkong2001:rjge7nft@cluster0.7ohyjiv.mongodb.net/habittracker?retryWrites=true&w=majority"
+    "ADD MONGODB SERVER HERE"
 );
 
 //Middleware
